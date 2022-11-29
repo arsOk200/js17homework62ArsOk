@@ -1,0 +1,16 @@
+.tasks{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.task{
+    border: 1px solid black;
+    margin: 10px ;
+    width: 50%;
+    min-height: 85px;
+    background-color: #718abe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
